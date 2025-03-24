@@ -1,0 +1,17 @@
+{
+  "name": "exploring-tailwindcss",
+  "version": "1.0.0",
+  "description": "Exploring the structure of Tailwind CSS, the framework responsible for make ease the construction of websites, to create responsive pages without coding mess. \r ## Goal \r In order to clean up the structure during its building process and learn about its popularity on the market",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.15",
+    "tailwindcss": "^4.0.15"
+  }
+}

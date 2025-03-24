@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/input.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="background-wrapper">
+        <div class="w-auto" id="background"></div>
+        <header class="relative container mx-auto px-10 py-4">
+            <nav class="flex items-center justify-between text-white">
+                <p class="font-bold text-2xl">LOGO</p>
+                <div class="hidden md:flex space-x-10">
+                    <li class="hover:text-amber-300 list-none"><a href="#">Inspiration</a></li>
+                    <li class="hover:text-amber-300 list-none"><a href="#">Travel Plain</a></li>
+                    <li class="hover:text-amber-300 list-none"><a href="#">Blog</a></li>
+                </div>
+                <button class="hidden md:block bg-amber-950 text-white p-3 px-6 rounded-full baseline font-medium hover:bg-amber-300 hover:text-black">Sign in</button>
+        
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </nav>
+            <div class="md:hidden">
+                <div id="menu" class="hidden absolute z-50 flex-col items-center self-end py-8 mt-10 space-y-6 font-bold text-white sm:w-auto sm:selft-center left-6 right-6 drop-shadow-md">
+                    <a href="#">Inpiration</a>
+                    <a href="#">Travel Plain</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+        </header>
+    
+        <section id="hero">
+            <div class="container flex flex-col-reverse mx-auto md:flex-row mt-20 px-10 space-y-0 md:space-y-0 text-white justify-center md:justify-between">
+                <div class="flex flex-col mb-32 space-y-12 md:w-1/2 items-center text-center md:items-baseline">
+                    <h1 class="text-4xl font-bold max-w-lg text-center md:text-5xl md:text-left">Cities around the world, discover the wide range of possibilities</h1>
+                    <p class="text- md:text-left">Come and see the best places in the world at the best prices! From paradisiacal beaches to historic cities, we offer unique experiences that fit in your pocket. Venture around the world without any worries - visit our agency and turn your dreams into reality!</p>
+                    <div class="flex justify-center md:justify-start">
+                        <button class="bg-amber-950 text-white p-3 px-6 rounded-full baseline font-medium hover:bg-amber-300 hover:text-black">Get your dreams</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+        <section id="features">
+            <div class="container flex flex-col px-4 mx-auto mt-10 max-auto items-center justify-between md:space-y-0 md:flex-row">
+                <div class="flex flex-col space-y-12 md:-1/2 items-center">
+                    <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                        Our difference & service
+                    </h2>
+                    <p class="max-w-sm text-center md:text-left">At our agency, we believe that traveling is more than just visiting new places – it's about creating unforgettable experiences. What sets us apart is our commitment to offering not just the best prices, but also personalized service that caters to your unique travel dreams.<br>
+                    From hidden gems to iconic landmarks, we carefully curate every journey to ensure you discover the world in the most authentic and enriching way. <br>
+                    With us, you're not just booking a vacation; you're investing in memories that last a lifetime. Let us take you to the best destinations around the globe</p>
+                </div>
+        
+                <div class="flex flex-col md:w-1/2">
+                    <img class="max-w-100 h-100 bg-amber-500 rounded-2xl" src="" alt="">
+                </div>
+            </div>
+        </section>
+    
+        <section id="blogSigning">
+            <div class="mt-20 flex flex-col bg-amber-600 items-center justify-center p-15 space-y-6">
+                <h2 class="text-4xl font-bold text-white mb-10">Register</h2>
+                <p class="text-xl font-medium text-white">Receive news and promotions</p>
+                <div class="flex flex-col">
+                    <label class="font-bold text-sm text-white" for="name">Name</label>
+                    <input class="w-3xs md:w-md bg-white rounded-xl" type="text" name="name" id="name">
+                </div>
+                <div class="flex flex-col">
+                    <label class="font-bold text-sm text-white" for="email">E-mail</label>
+                    <input class="w-3xs md:w-md bg-white rounded-xl" type="password" name="email" id="email">
+                </div>
+                <button class="bg-amber-950 text-white p-3 px-20 rounded-full baseline font-medium hover:bg-amber-300 hover:text-black mt-4" type="submit">Receive news</button>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="flex flex-col text-white items-center justify-center p-5 bg-amber-900">
+                <hr class="w-10/11 m-2">
+                <p>by <a href="#">Alice Silva</a></p>
+            </div>
+        </footer>
+        <script src="../src/js/script.js"></script>
+    </div>
+</body>
+</html>
