@@ -6,4 +6,4 @@ In order to clean up the structure during its building process and learn about i
 ##  Building in progress...🚧
 ![30%](https://progress-bar.xyz/30)
 
-![Screenshot 2025-03-24 172906](https://github.com/user-attachments/assets/1db10797-5fe4-4ab2-bad4-25504a23bc2f)
+![Screenshot 2025-03-24 193631](https://github.com/user-attachments/assets/85d62336-319a-40af-b1d7-86933065d323)
